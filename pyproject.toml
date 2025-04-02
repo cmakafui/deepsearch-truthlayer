@@ -1,0 +1,22 @@
+[project]
+name = "deepsearch-truthlayer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "firecrawl-py>=1.15.0",
+    "instructor[google-generativeai]>=1.7.8",
+    "ipywidgets>=8.1.5",
+    "notebook>=7.3.3",
+    "pandas>=2.2.3",
+    "plotly>=6.0.1",
+    "pydantic>=2.11.1",
+    "python-dotenv>=1.1.0",
+    "streamlit>=1.44.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.2",
+]
